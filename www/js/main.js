@@ -39,5 +39,48 @@ $(document).ready(function () {
         event.preventDefault();
         $('html,body').animate({scrollTop: $(this.hash).offset().top - 64}, 1000);
     });
+
+    //food-menu-list dropdown
+    $(".menu-food").on('click', function () {
+        if ($(".menu-food-list").is(":hidden")) {
+            $(".menu-food-list").slideDown("slow", function () {
+                var rotation = function () {
+                    $(".menu-food-list-close").rotate({
+                        angle: 0,
+                        animateTo: 360
+                    });
+                };
+                rotation();
+            });
+        } else {
+            $(".menu-food-list").slideUp("slow");
+        }
+    });
+    $(".menu-food-list-close").on('click', function () {
+        $(".menu-food-list").slideUp("slow");
+    });
+
+    //drinks-menu-list dropdown
+    $(".menu-drinks").on('click', function () {
+        if ($(".menu-drinks-list").is(":hidden")) {
+            $(".menu-drinks-list").slideDown("slow", function () {
+                var rotation = function () {
+                    $(".menu-drinks-list-close").rotate({
+                        angle: 0,
+                        animateTo: 360
+                    });
+                };
+                rotation();
+            });
+        } else {
+            $(".menu-drinks-list").slideUp("slow");
+        }
+    });
+    $(".menu-drinks-list-close").on('click', function () {
+        $(".menu-drinks-list").slideUp("slow");
+    });
+
+//animated backgrounds
+
 });
 

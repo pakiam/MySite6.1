@@ -120,9 +120,9 @@ body {
 
 /* line 13, ../sass/style.sass */
 .left-side-holder {
-  background: url("../img/1.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
+  background: url("../img/t1-bg.jpg");
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   height: 60vh;
 }
 
@@ -140,12 +140,12 @@ body {
 
 /* line 26, ../sass/style.sass */
 .menu-food {
-  background: url("../img/3_1.jpg");
+  background: url("../img/t2-bg.jpg");
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   height: 30vh;
   text-align: center;
   cursor: pointer;
@@ -157,18 +157,18 @@ body {
 }
 /* line 41, ../sass/style.sass */
 .menu-food:hover {
-  -webkit-background-size: 140% auto;
-  background-size: 140% auto;
+  -webkit-background-size: 140% 140%;
+  background-size: 140% 140%;
 }
 
 /* line 44, ../sass/style.sass */
 .menu-drinks {
-  background: url("../img/3_2.jpg");
+  background: url("../img/t3-bg.jpg");
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   height: 30vh;
   text-align: center;
   cursor: pointer;
@@ -180,18 +180,18 @@ body {
 }
 /* line 59, ../sass/style.sass */
 .menu-drinks:hover {
-  -webkit-background-size: 140% auto;
-  background-size: 140% auto;
+  -webkit-background-size: 140% 140%;
+  background-size: 140% 140%;
 }
 
 /* line 62, ../sass/style.sass */
 .menu-3 {
-  background: url("../img/3_3.jpg");
+  background: url("../img/t4-bg.jpg");
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   height: 30vh;
   text-align: center;
   cursor: pointer;
@@ -203,18 +203,18 @@ body {
 }
 /* line 77, ../sass/style.sass */
 .menu-3:hover {
-  -webkit-background-size: 140% auto;
-  background-size: 140% auto;
+  -webkit-background-size: 140% 140%;
+  background-size: 140% 140%;
 }
 
 /* line 80, ../sass/style.sass */
 .menu-4 {
-  background: url("../img/3_4.jpg");
+  background: url("../img/t5-bg.jpg");
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   height: 30vh;
   text-align: center;
   cursor: pointer;
@@ -226,8 +226,8 @@ body {
 }
 /* line 95, ../sass/style.sass */
 .menu-4:hover {
-  -webkit-background-size: 140% auto;
-  background-size: 140% auto;
+  -webkit-background-size: 140% 140%;
+  background-size: 140% 140%;
 }
 
 /* line 98, ../sass/style.sass */
@@ -277,85 +277,114 @@ body {
 }
 
 /* line 128, ../sass/style.sass */
+.menu-food-list, .menu-drinks-list {
+  position: relative;
+  background-color: #fbfcdc;
+  text-align: center;
+  border-bottom: 2px solid #444;
+  border-top: 2px solid #444;
+  display: none;
+}
+/* line 135, ../sass/style.sass */
+.menu-food-list h2, .menu-drinks-list h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #2b2e4a;
+}
+/* line 139, ../sass/style.sass */
+.menu-food-list p, .menu-drinks-list p {
+  color: #2b2e4a;
+  padding-bottom: 50px;
+}
+/* line 142, ../sass/style.sass */
+.menu-food-list .fa, .menu-drinks-list .fa {
+  position: absolute;
+  font-size: 30px;
+  right: 3%;
+  top: 3%;
+  cursor: pointer;
+}
+
+/* line 149, ../sass/style.sass */
 .place-inner {
   position: relative;
   padding-top: 20%;
 }
 
-/* line 131, ../sass/style.sass */
+/* line 152, ../sass/style.sass */
 .place {
   position: relative;
-  background: url("../img/6.jpg");
+  background: url("../img/b1-bg.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   text-align: center;
   height: 36vh;
 }
-/* line 138, ../sass/style.sass */
+/* line 159, ../sass/style.sass */
 .place .fa {
   font-size: 30px;
 }
-/* line 140, ../sass/style.sass */
+/* line 161, ../sass/style.sass */
 .place span {
   vertical-align: super;
   font-size: 12px;
 }
 
-/* line 144, ../sass/style.sass */
+/* line 165, ../sass/style.sass */
 .phone {
   position: relative;
-  background: url("../img/9.jpg");
+  background: url("../img/b2-bg.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   height: 36vh;
 }
 
-/* line 150, ../sass/style.sass */
+/* line 171, ../sass/style.sass */
 .phone-inner {
   position: relative;
   text-align: center;
   padding-top: 20%;
 }
-/* line 154, ../sass/style.sass */
+/* line 175, ../sass/style.sass */
 .phone-inner .fa {
   color: #ffffff;
   font-size: 30px;
   text-shadow: 0 1px 3px #000;
 }
 
-/* line 158, ../sass/style.sass */
+/* line 179, ../sass/style.sass */
 .mail {
   position: relative;
-  background: url("../img/8.jpg");
+  background: url("../img/b3-bg.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   height: 36vh;
 }
 
-/* line 164, ../sass/style.sass */
+/* line 185, ../sass/style.sass */
 .mail-inner {
   position: relative;
   text-align: center;
   padding-top: 20%;
 }
-/* line 168, ../sass/style.sass */
+/* line 189, ../sass/style.sass */
 .mail-inner .fa {
   font-size: 30px;
   color: #ffffff;
   text-shadow: 0 1px 3px #000;
 }
 
-/* line 172, ../sass/style.sass */
+/* line 193, ../sass/style.sass */
 footer {
   background-color: #222;
   height: 4vh;
 }
-/* line 175, ../sass/style.sass */
+/* line 196, ../sass/style.sass */
 footer p {
   font-size: 14px;
 }
 
-/* line 177, ../sass/style.sass */
+/* line 198, ../sass/style.sass */
 .logo-footer {
   width: 70px;
   height: 20px;
@@ -363,7 +392,7 @@ footer p {
   margin-right: 20px;
   float: right;
 }
-/* line 183, ../sass/style.sass */
+/* line 204, ../sass/style.sass */
 .logo-footer img {
   max-width: 100%;
 }
@@ -371,39 +400,39 @@ footer p {
 /* fix iOS bug not displaying 100vh correctly */
 /* ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 189, ../sass/style.sass */
+  /* line 210, ../sass/style.sass */
   .fullheight {
     height: 768px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 192, ../sass/style.sass */
+  /* line 213, ../sass/style.sass */
   .fullheight {
     height: 1024px;
   }
 }
 /* iphone5 */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-  /* line 196, ../sass/style.sass */
+  /* line 217, ../sass/style.sass */
   .fullheight {
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  /* line 199, ../sass/style.sass */
+  /* line 220, ../sass/style.sass */
   .fullheight {
     height: 568px;
   }
 }
 /* iPhone 4 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 203, ../sass/style.sass */
+  /* line 224, ../sass/style.sass */
   .fullheight {
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 206, ../sass/style.sass */
+  /* line 227, ../sass/style.sass */
   .fullheight {
     height: 480px;
   }
