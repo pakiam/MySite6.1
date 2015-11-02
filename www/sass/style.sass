@@ -7,10 +7,9 @@ body
   font-size: 62.5%
   font-family: $font
   width: 100%
+  background-color: #222
 .site-wrapper
   width: 100%
-  height: 100vh
-  //background-color: #333
 .left-side-holder
   background: url("../img/1.jpg")
   -webkit-background-size: cover
@@ -178,10 +177,33 @@ footer
 .logo-footer
   width: 70px
   height: 20px
-  margin-top: 10px
+  margin-top: 8px
   margin-right: 20px
   float: right
   img
     max-width: 100%
+
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+  .fullheight
+    height: 768px
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+  .fullheight
+    height: 1024px
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2)
+  .fullheight
+    height: 320px
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2)
+  .fullheight
+    height: 568px
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2)
+  .fullheight
+    height: 320px
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2)
+  .fullheight
+    height: 480px
 
 @import "media"
