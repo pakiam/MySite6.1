@@ -106,6 +106,15 @@ h5 {
 }
 
 /* line 6, ../sass/style.sass */
+.transition, .left-side-holder, .menu-food, .menu-drinks, .menu-3, .menu-4, .place, .phone, .mail {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 12, ../sass/style.sass */
 body {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
@@ -113,12 +122,12 @@ body {
   background-color: #222;
 }
 
-/* line 11, ../sass/style.sass */
+/* line 17, ../sass/style.sass */
 .site-wrapper {
   width: 100%;
 }
 
-/* line 13, ../sass/style.sass */
+/* line 19, ../sass/style.sass */
 .left-side-holder {
   background-image: url("../img/bg-1/t1-bg.jpg");
   -webkit-background-size: 100% 100%;
@@ -126,19 +135,19 @@ body {
   height: 60vh;
 }
 
-/* line 19, ../sass/style.sass */
+/* line 27, ../sass/style.sass */
 .logo {
   position: relative;
   width: 330px;
   height: 330px;
   top: 20%;
 }
-/* line 24, ../sass/style.sass */
+/* line 32, ../sass/style.sass */
 .logo img {
   max-width: 100%;
 }
 
-/* line 26, ../sass/style.sass */
+/* line 34, ../sass/style.sass */
 .menu-food {
   background-image: url("../img/bg-1/t2-bg.jpg");
   position: relative;
@@ -149,19 +158,14 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
-  transition: background-size 1s ease;
-  -moz-transition: background-size 1s ease;
-  -ms-transition: background-size 1s ease;
-  -o-transition: background-size 1s ease;
-  -webkit-transition: background-size 1s ease;
 }
-/* line 41, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 .menu-food:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 44, ../sass/style.sass */
+/* line 48, ../sass/style.sass */
 .menu-drinks {
   background-image: url("../img/bg-1/t3-bg.jpg");
   position: relative;
@@ -172,11 +176,6 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
-  transition: background-size 1s ease;
-  -moz-transition: background-size 1s ease;
-  -ms-transition: background-size 1s ease;
-  -o-transition: background-size 1s ease;
-  -webkit-transition: background-size 1s ease;
 }
 /* line 59, ../sass/style.sass */
 .menu-drinks:hover {
@@ -195,19 +194,14 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
-  transition: background-size 1s ease;
-  -moz-transition: background-size 1s ease;
-  -ms-transition: background-size 1s ease;
-  -o-transition: background-size 1s ease;
-  -webkit-transition: background-size 1s ease;
 }
-/* line 77, ../sass/style.sass */
+/* line 73, ../sass/style.sass */
 .menu-3:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 80, ../sass/style.sass */
+/* line 76, ../sass/style.sass */
 .menu-4 {
   background-image: url("../img/bg-1/t5-bg.jpg");
   position: relative;
@@ -218,34 +212,29 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
-  transition: background-size 1s ease;
-  -moz-transition: background-size 1s ease;
-  -ms-transition: background-size 1s ease;
-  -o-transition: background-size 1s ease;
-  -webkit-transition: background-size 1s ease;
 }
-/* line 95, ../sass/style.sass */
+/* line 87, ../sass/style.sass */
 .menu-4:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 98, ../sass/style.sass */
+/* line 90, ../sass/style.sass */
 .content {
   position: relative;
   padding-top: 20%;
 }
-/* line 101, ../sass/style.sass */
+/* line 93, ../sass/style.sass */
 .content .fa {
   font-size: 30px;
   color: #F4F7F0;
 }
-/* line 104, ../sass/style.sass */
+/* line 96, ../sass/style.sass */
 .content h3 {
   padding-top: 2%;
 }
 
-/* line 107, ../sass/style.sass */
+/* line 99, ../sass/style.sass */
 .overlay:before {
   position: absolute;
   content: " ";
@@ -258,26 +247,26 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 118, ../sass/style.sass */
+/* line 110, ../sass/style.sass */
 [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 121, ../sass/style.sass */
+/* line 113, ../sass/style.sass */
 .row {
   padding: 0;
   margin: 0;
 }
 
-/* line 124, ../sass/style.sass */
+/* line 116, ../sass/style.sass */
 .full {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 128, ../sass/style.sass */
-.menu-food-list, .menu-drinks-list {
+/* line 120, ../sass/style.sass */
+.menu-food-list, .menu-drinks-list, .menu-food-list-mobile, .menu-drinks-list-mobile {
   position: relative;
   background-color: #fbfcdc;
   text-align: center;
@@ -285,19 +274,19 @@ body {
   border-top: 2px solid #444;
   display: none;
 }
-/* line 135, ../sass/style.sass */
-.menu-food-list h2, .menu-drinks-list h2 {
+/* line 127, ../sass/style.sass */
+.menu-food-list h2, .menu-drinks-list h2, .menu-food-list-mobile h2, .menu-drinks-list-mobile h2 {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #2b2e4a;
 }
-/* line 139, ../sass/style.sass */
-.menu-food-list p, .menu-drinks-list p {
+/* line 131, ../sass/style.sass */
+.menu-food-list p, .menu-drinks-list p, .menu-food-list-mobile p, .menu-drinks-list-mobile p {
   color: #2b2e4a;
   padding-bottom: 50px;
 }
-/* line 142, ../sass/style.sass */
-.menu-food-list .fa, .menu-drinks-list .fa {
+/* line 134, ../sass/style.sass */
+.menu-food-list .fa, .menu-drinks-list .fa, .menu-food-list-mobile .fa, .menu-drinks-list-mobile .fa {
   position: absolute;
   font-size: 30px;
   right: 3%;
@@ -305,13 +294,13 @@ body {
   cursor: pointer;
 }
 
-/* line 149, ../sass/style.sass */
+/* line 141, ../sass/style.sass */
 .place-inner {
   position: relative;
   padding-top: 20%;
 }
 
-/* line 152, ../sass/style.sass */
+/* line 144, ../sass/style.sass */
 .place {
   position: relative;
   background-image: url("../img/bg-1/b1-bg.jpg");
@@ -320,17 +309,17 @@ body {
   text-align: center;
   height: 36vh;
 }
-/* line 159, ../sass/style.sass */
+/* line 152, ../sass/style.sass */
 .place .fa {
   font-size: 30px;
 }
-/* line 161, ../sass/style.sass */
+/* line 154, ../sass/style.sass */
 .place span {
   vertical-align: super;
   font-size: 12px;
 }
 
-/* line 165, ../sass/style.sass */
+/* line 158, ../sass/style.sass */
 .phone {
   position: relative;
   background-image: url("../img/bg-1/b2-bg.jpg");
@@ -339,20 +328,20 @@ body {
   height: 36vh;
 }
 
-/* line 171, ../sass/style.sass */
+/* line 165, ../sass/style.sass */
 .phone-inner {
   position: relative;
   text-align: center;
   padding-top: 20%;
 }
-/* line 175, ../sass/style.sass */
+/* line 169, ../sass/style.sass */
 .phone-inner .fa {
   color: #ffffff;
   font-size: 30px;
   text-shadow: 0 1px 3px #000;
 }
 
-/* line 179, ../sass/style.sass */
+/* line 173, ../sass/style.sass */
 .mail {
   position: relative;
   background-image: url("../img/bg-1/b3-bg.jpg");
@@ -361,30 +350,30 @@ body {
   height: 36vh;
 }
 
-/* line 185, ../sass/style.sass */
+/* line 180, ../sass/style.sass */
 .mail-inner {
   position: relative;
   text-align: center;
   padding-top: 20%;
 }
-/* line 189, ../sass/style.sass */
+/* line 184, ../sass/style.sass */
 .mail-inner .fa {
   font-size: 30px;
   color: #ffffff;
   text-shadow: 0 1px 3px #000;
 }
 
-/* line 193, ../sass/style.sass */
+/* line 188, ../sass/style.sass */
 footer {
   background-color: #222;
   height: 4vh;
 }
-/* line 196, ../sass/style.sass */
+/* line 191, ../sass/style.sass */
 footer p {
   font-size: 14px;
 }
 
-/* line 198, ../sass/style.sass */
+/* line 193, ../sass/style.sass */
 .logo-footer {
   width: 70px;
   height: 20px;
@@ -392,7 +381,7 @@ footer p {
   margin-right: 20px;
   float: right;
 }
-/* line 204, ../sass/style.sass */
+/* line 199, ../sass/style.sass */
 .logo-footer img {
   max-width: 100%;
 }
@@ -400,39 +389,39 @@ footer p {
 /* fix iOS bug not displaying 100vh correctly */
 /* ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 210, ../sass/style.sass */
+  /* line 205, ../sass/style.sass */
   .fullheight {
     height: 768px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 213, ../sass/style.sass */
+  /* line 208, ../sass/style.sass */
   .fullheight {
     height: 1024px;
   }
 }
 /* iphone5 */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-  /* line 217, ../sass/style.sass */
+  /* line 212, ../sass/style.sass */
   .fullheight {
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  /* line 220, ../sass/style.sass */
+  /* line 215, ../sass/style.sass */
   .fullheight {
     height: 568px;
   }
 }
 /* iPhone 4 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 224, ../sass/style.sass */
+  /* line 219, ../sass/style.sass */
   .fullheight {
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 227, ../sass/style.sass */
+  /* line 222, ../sass/style.sass */
   .fullheight {
     height: 480px;
   }
@@ -444,7 +433,76 @@ footer p {
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /* */
+  /* line 10, ../sass/_media.sass */
+  .left-side-holder {
+    background-image: url("../img/bg-3/t1-bg.jpg");
+  }
+
+  /* line 12, ../sass/_media.sass */
+  .menu-food {
+    background-image: url("../img/bg-3/t2-bg.jpg");
+  }
+  /* line 14, ../sass/_media.sass */
+  .menu-food:hover {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  /* line 17, ../sass/_media.sass */
+  .menu-drinks {
+    background-image: url("../img/bg-3/t3-bg.jpg");
+  }
+  /* line 19, ../sass/_media.sass */
+  .menu-drinks:hover {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  /* line 22, ../sass/_media.sass */
+  .menu-3 {
+    background-image: url("../img/bg-3/t4-bg.jpg");
+  }
+  /* line 24, ../sass/_media.sass */
+  .menu-3:hover {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  /* line 27, ../sass/_media.sass */
+  .menu-4 {
+    background-image: url("../img/bg-3/t5-bg.jpg");
+  }
+  /* line 29, ../sass/_media.sass */
+  .menu-4:hover {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  /* line 32, ../sass/_media.sass */
+  .place {
+    background-image: url("../img/bg-3/b1-bg.jpg");
+  }
+
+  /* line 34, ../sass/_media.sass */
+  .phone {
+    background-image: url("../img/bg-3/b2-bg.jpg");
+  }
+
+  /* line 36, ../sass/_media.sass */
+  .mail {
+    background-image: url("../img/bg-3/b3-bg.jpg");
+  }
+
+  /* line 38, ../sass/_media.sass */
+  .content {
+    padding-top: 10%;
+  }
+
+  /* line 40, ../sass/_media.sass */
+  .logo {
+    width: 250px;
+    height: 250px;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
