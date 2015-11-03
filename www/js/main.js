@@ -81,6 +81,14 @@ $(document).ready(function () {
     });
 
 //animated backgrounds
-
+    setTimeout(function changeBg() {
+        var k=2;
+        for (var i=1;i<=5;i++){
+            $(".left-side-holder, .menu-food, .menu-drinks, .menu-3, .menu-4").css("background","url('../img/bg-'"+k+"'/t'"+i+"'-bg.jpg')");
+        }
+        for (var j=1;j<=3;j++){
+            $(".place, .phone, .mail").css("background","url('../img/bg-'"+k+"'/b'"+j+"'-bg.jpg')");
+        }
+    }, 2000);
 });
 
