@@ -125,29 +125,35 @@ body {
 /* line 17, ../sass/style.sass */
 .site-wrapper {
   width: 100%;
+  height: 100vh;
 }
 
-/* line 19, ../sass/style.sass */
+/* line 20, ../sass/style.sass */
 .left-side-holder {
   background-image: url("../img/bg-1/t1-bg.jpg");
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   height: 60vh;
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
-/* line 27, ../sass/style.sass */
+/* line 33, ../sass/style.sass */
 .logo {
   position: relative;
   width: 330px;
   height: 330px;
   top: 20%;
 }
-/* line 32, ../sass/style.sass */
+/* line 38, ../sass/style.sass */
 .logo img {
   max-width: 100%;
 }
 
-/* line 34, ../sass/style.sass */
+/* line 40, ../sass/style.sass */
 .menu-food {
   background-image: url("../img/bg-1/t2-bg.jpg");
   position: relative;
@@ -158,14 +164,19 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
-/* line 45, ../sass/style.sass */
+/* line 56, ../sass/style.sass */
 .menu-food:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 48, ../sass/style.sass */
+/* line 59, ../sass/style.sass */
 .menu-drinks {
   background-image: url("../img/bg-1/t3-bg.jpg");
   position: relative;
@@ -176,14 +187,19 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
+  -webkit-transition-delay: 0.6s;
+  -moz-transition-delay: 0.6s;
+  -ms-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
-/* line 59, ../sass/style.sass */
+/* line 75, ../sass/style.sass */
 .menu-drinks:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 62, ../sass/style.sass */
+/* line 78, ../sass/style.sass */
 .menu-3 {
   background-image: url("../img/bg-1/t4-bg.jpg");
   position: relative;
@@ -194,14 +210,19 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
+  -webkit-transition-delay: 0.7s;
+  -moz-transition-delay: 0.7s;
+  -ms-transition-delay: 0.7s;
+  -o-transition-delay: 0.7s;
+  transition-delay: 0.7s;
 }
-/* line 73, ../sass/style.sass */
+/* line 94, ../sass/style.sass */
 .menu-3:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 76, ../sass/style.sass */
+/* line 97, ../sass/style.sass */
 .menu-4 {
   background-image: url("../img/bg-1/t5-bg.jpg");
   position: relative;
@@ -212,29 +233,34 @@ body {
   height: 30vh;
   text-align: center;
   cursor: pointer;
+  -webkit-transition-delay: 0.8s;
+  -moz-transition-delay: 0.8s;
+  -ms-transition-delay: 0.8s;
+  -o-transition-delay: 0.8s;
+  transition-delay: 0.8s;
 }
-/* line 87, ../sass/style.sass */
+/* line 113, ../sass/style.sass */
 .menu-4:hover {
   -webkit-background-size: 140% 140%;
   background-size: 140% 140%;
 }
 
-/* line 90, ../sass/style.sass */
+/* line 116, ../sass/style.sass */
 .content {
   position: relative;
   padding-top: 20%;
 }
-/* line 93, ../sass/style.sass */
+/* line 119, ../sass/style.sass */
 .content .fa {
   font-size: 30px;
   color: #F4F7F0;
 }
-/* line 96, ../sass/style.sass */
+/* line 122, ../sass/style.sass */
 .content h3 {
   padding-top: 2%;
 }
 
-/* line 99, ../sass/style.sass */
+/* line 125, ../sass/style.sass */
 .overlay:before {
   position: absolute;
   content: " ";
@@ -247,45 +273,43 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 110, ../sass/style.sass */
+/* line 136, ../sass/style.sass */
 [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 113, ../sass/style.sass */
+/* line 139, ../sass/style.sass */
 .row {
   padding: 0;
   margin: 0;
 }
 
-/* line 116, ../sass/style.sass */
+/* line 142, ../sass/style.sass */
 .full {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 120, ../sass/style.sass */
+/* line 146, ../sass/style.sass */
 .menu-food-list, .menu-drinks-list, .menu-food-list-mobile, .menu-drinks-list-mobile {
   position: relative;
   background-color: #fbfcdc;
   text-align: center;
-  border-bottom: 2px solid #444;
-  border-top: 2px solid #444;
   display: none;
 }
-/* line 127, ../sass/style.sass */
+/* line 152, ../sass/style.sass */
 .menu-food-list h2, .menu-drinks-list h2, .menu-food-list-mobile h2, .menu-drinks-list-mobile h2 {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #2b2e4a;
 }
-/* line 131, ../sass/style.sass */
+/* line 156, ../sass/style.sass */
 .menu-food-list p, .menu-drinks-list p, .menu-food-list-mobile p, .menu-drinks-list-mobile p {
   color: #2b2e4a;
   padding-bottom: 50px;
 }
-/* line 134, ../sass/style.sass */
+/* line 159, ../sass/style.sass */
 .menu-food-list .fa, .menu-drinks-list .fa, .menu-food-list-mobile .fa, .menu-drinks-list-mobile .fa {
   position: absolute;
   font-size: 30px;
@@ -294,13 +318,13 @@ body {
   cursor: pointer;
 }
 
-/* line 141, ../sass/style.sass */
+/* line 166, ../sass/style.sass */
 .place-inner {
   position: relative;
   padding-top: 20%;
 }
 
-/* line 144, ../sass/style.sass */
+/* line 169, ../sass/style.sass */
 .place {
   position: relative;
   background-image: url("../img/bg-1/b1-bg.jpg");
@@ -308,72 +332,87 @@ body {
   background-size: cover;
   text-align: center;
   height: 36vh;
+  -webkit-transition-delay: 0.9s;
+  -moz-transition-delay: 0.9s;
+  -ms-transition-delay: 0.9s;
+  -o-transition-delay: 0.9s;
+  transition-delay: 0.9s;
 }
-/* line 152, ../sass/style.sass */
+/* line 182, ../sass/style.sass */
 .place .fa {
   font-size: 30px;
 }
-/* line 154, ../sass/style.sass */
+/* line 184, ../sass/style.sass */
 .place span {
   vertical-align: super;
   font-size: 12px;
 }
 
-/* line 158, ../sass/style.sass */
+/* line 188, ../sass/style.sass */
 .phone {
   position: relative;
   background-image: url("../img/bg-1/b2-bg.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   height: 36vh;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -ms-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
-/* line 165, ../sass/style.sass */
+/* line 200, ../sass/style.sass */
 .phone-inner {
   position: relative;
   text-align: center;
   padding-top: 20%;
 }
-/* line 169, ../sass/style.sass */
+/* line 204, ../sass/style.sass */
 .phone-inner .fa {
   color: #ffffff;
   font-size: 30px;
   text-shadow: 0 1px 3px #000;
 }
 
-/* line 173, ../sass/style.sass */
+/* line 208, ../sass/style.sass */
 .mail {
   position: relative;
   background-image: url("../img/bg-1/b3-bg.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   height: 36vh;
+  -webkit-transition-delay: 1.1s;
+  -moz-transition-delay: 1.1s;
+  -ms-transition-delay: 1.1s;
+  -o-transition-delay: 1.1s;
+  transition-delay: 1.1s;
 }
 
-/* line 180, ../sass/style.sass */
+/* line 220, ../sass/style.sass */
 .mail-inner {
   position: relative;
   text-align: center;
   padding-top: 20%;
 }
-/* line 184, ../sass/style.sass */
+/* line 224, ../sass/style.sass */
 .mail-inner .fa {
   font-size: 30px;
   color: #ffffff;
   text-shadow: 0 1px 3px #000;
 }
 
-/* line 188, ../sass/style.sass */
+/* line 228, ../sass/style.sass */
 footer {
   background-color: #222;
   height: 4vh;
 }
-/* line 191, ../sass/style.sass */
+/* line 231, ../sass/style.sass */
 footer p {
   font-size: 14px;
 }
 
-/* line 193, ../sass/style.sass */
+/* line 233, ../sass/style.sass */
 .logo-footer {
   width: 70px;
   height: 20px;
@@ -381,7 +420,7 @@ footer p {
   margin-right: 20px;
   float: right;
 }
-/* line 199, ../sass/style.sass */
+/* line 239, ../sass/style.sass */
 .logo-footer img {
   max-width: 100%;
 }
@@ -389,39 +428,39 @@ footer p {
 /* fix iOS bug not displaying 100vh correctly */
 /* ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 205, ../sass/style.sass */
+  /* line 245, ../sass/style.sass */
   .fullheight {
     height: 768px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 208, ../sass/style.sass */
+  /* line 248, ../sass/style.sass */
   .fullheight {
     height: 1024px;
   }
 }
 /* iphone5 */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-  /* line 212, ../sass/style.sass */
+  /* line 252, ../sass/style.sass */
   .fullheight {
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  /* line 215, ../sass/style.sass */
+  /* line 255, ../sass/style.sass */
   .fullheight {
     height: 568px;
   }
 }
 /* iPhone 4 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 219, ../sass/style.sass */
+  /* line 259, ../sass/style.sass */
   .fullheight {
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 222, ../sass/style.sass */
+  /* line 262, ../sass/style.sass */
   .fullheight {
     height: 480px;
   }
